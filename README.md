@@ -15,14 +15,14 @@ xcode-select --install
 ```
 
 ## 2. Install MiniForge
-Similar to MiniConda or Anaconda, MiniForge is a conda installer which has better compatinilty (in my experience) with MacOS including the M1 series. For that, download the installer for Apple M1 (OSX, arm64, Miniforge3-MacOSX-arm64) from [here](https://github.com/conda-forge/miniforge). Once downloaded, execute: 
+Similar to MiniConda or Anaconda, MiniForge is a conda installer which has better compatibilty (in my experience) with MacOS including the M1 series. For that, download the installer for Apple M1 (OSX, arm64, Miniforge3-MacOSX-arm64) from [here](https://github.com/conda-forge/miniforge). Once downloaded, execute: 
 ```
 bash Miniforge3-MacOSX-arm64.sh
 ```
 One thing worth mentioning is that I had another conda distribution already installed so I skipped installing MiniForge (which you should ideally do). However, I did not get satisfactory installation results so I had to uninstall the existing conda distribution and install MiniForge.
 
 ## 3. Setup a New Conda Environment
-Once the compatible conda distribution is installed, the next step is to creat and then activate a new environment. For that, execute:
+Once the compatible conda distribution is installed, the next step is to create and then activate a new environment. For that, execute:
 ```
 conda create --name pytorch_m1 python=3.8
 conda activate pytorch_m1
