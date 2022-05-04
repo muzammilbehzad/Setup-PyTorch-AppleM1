@@ -24,6 +24,19 @@ One thing worth mentioning is that I had another conda distribution already inst
 3. Setup a New Conda Environment
 Once the compatible conda distribution is installed, the next step is to creat and then activate a new environment. For that, execute:
 ```
-conda create --name pytorch_applem1 python=3.8
-conda activate pytorch_applem1
+conda create --name pytorch_m1 python=3.8
+conda activate pytorch_m1
 ```
+4. Install PyTorch
+PyTorch native package can be dowbloaded from [Anaconda’s website](https://anaconda.org/search?q=pytorch) for osx-arm64 - the architecture of the Apple M1.
+Now, we can install PyTorch in this environment by running the following command
+```
+conda install -c pytorch pytorch torchvision
+```
+
+5. That's it
+All done. Just run a sample python program to check all is ok. PyTorch’s GitHub page comes with many examples so we do not have to wrtie anythin from scratch. Just download [this script](https://github.com/pytorch/examples/blob/main/mnist/main.py) and run it using
+```
+python main.py
+```
+
