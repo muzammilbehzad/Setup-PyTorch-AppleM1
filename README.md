@@ -39,4 +39,6 @@ All done. Just run a sample python program to check all is ok. PyTorch’s GitHu
 ```
 python main.py
 ```
+<img src="PyTorchRunningM1.png">
+
 
