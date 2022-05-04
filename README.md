@@ -6,6 +6,7 @@ This repo includes instructions for installing PyTorch for the latest Apple Sili
 
 
 Followig provides precise steps to follow for installing PyTorch on M1.
+
 Step 1: Install Xcode
 Some of the M1 Macbooks have Xcode preinstalled and some does not have it. If your machines does not have it, downloaded it freely from the App Store, and then run this command to install the Xcode Command Line:
 
