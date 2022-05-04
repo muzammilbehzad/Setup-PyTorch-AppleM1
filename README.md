@@ -42,6 +42,6 @@ At this stage, everything seems to be running good and you should see a similar 
 <img src="PyTorchRunningM1.png">
 
 ## 6. Confirm M1 Processor
-The last step is to confirm whether or not the program runs natively on the Apple M1 processor. If this is the case, under ‘Kind’ on the Activity Monitor you should see the ‘Apple’ option. If you see Intel, something went wrong during the installation.
+The last step is to confirm whether or not the program runs natively on the Apple M1 processor. If this is the case, under ‘Kind’ on the Activity Monitor you should see the ‘Apple’ option. If you see 'Intel' instead, something went wrong during the installation.
 <img src="act_monitor.png">
 
